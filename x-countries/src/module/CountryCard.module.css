@@ -1,0 +1,10 @@
+.countryCardBox{
+    border-radius: 7px;
+    border:1px solid #000000;
+    box-shadow: 0 0 3px #000000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height:200px;
+}
