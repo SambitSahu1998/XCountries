@@ -11,7 +11,6 @@ const CountryContainer = () => {
     const fetchData = async () => {
       try {
         const response = await axios.get(COUNTRY_INFORMATION_API);
-        console.log(response.data);
         setCountries(response.data);
       } catch (error) {
         console.error("Error Fetching Data: ", error);
